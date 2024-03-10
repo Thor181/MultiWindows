@@ -1,0 +1,270 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="cropped.gif" />
+    <None Remove="Frames\F %281%29.gif" />
+    <None Remove="Frames\F %2810%29.gif" />
+    <None Remove="Frames\F %2811%29.gif" />
+    <None Remove="Frames\F %2812%29.gif" />
+    <None Remove="Frames\F %2813%29.gif" />
+    <None Remove="Frames\F %2814%29.gif" />
+    <None Remove="Frames\F %2815%29.gif" />
+    <None Remove="Frames\F %2816%29.gif" />
+    <None Remove="Frames\F %2817%29.gif" />
+    <None Remove="Frames\F %2818%29.gif" />
+    <None Remove="Frames\F %2819%29.gif" />
+    <None Remove="Frames\F %282%29.gif" />
+    <None Remove="Frames\F %2820%29.gif" />
+    <None Remove="Frames\F %2821%29.gif" />
+    <None Remove="Frames\F %2822%29.gif" />
+    <None Remove="Frames\F %2823%29.gif" />
+    <None Remove="Frames\F %2824%29.gif" />
+    <None Remove="Frames\F %2825%29.gif" />
+    <None Remove="Frames\F %2826%29.gif" />
+    <None Remove="Frames\F %2827%29.gif" />
+    <None Remove="Frames\F %2828%29.gif" />
+    <None Remove="Frames\F %2829%29.gif" />
+    <None Remove="Frames\F %283%29.gif" />
+    <None Remove="Frames\F %2830%29.gif" />
+    <None Remove="Frames\F %2831%29.gif" />
+    <None Remove="Frames\F %2832%29.gif" />
+    <None Remove="Frames\F %2833%29.gif" />
+    <None Remove="Frames\F %2834%29.gif" />
+    <None Remove="Frames\F %2835%29.gif" />
+    <None Remove="Frames\F %2836%29.gif" />
+    <None Remove="Frames\F %2837%29.gif" />
+    <None Remove="Frames\F %2838%29.gif" />
+    <None Remove="Frames\F %2839%29.gif" />
+    <None Remove="Frames\F %284%29.gif" />
+    <None Remove="Frames\F %2840%29.gif" />
+    <None Remove="Frames\F %2841%29.gif" />
+    <None Remove="Frames\F %2842%29.gif" />
+    <None Remove="Frames\F %2843%29.gif" />
+    <None Remove="Frames\F %2844%29.gif" />
+    <None Remove="Frames\F %2845%29.gif" />
+    <None Remove="Frames\F %2846%29.gif" />
+    <None Remove="Frames\F %2847%29.gif" />
+    <None Remove="Frames\F %2848%29.gif" />
+    <None Remove="Frames\F %2849%29.gif" />
+    <None Remove="Frames\F %285%29.gif" />
+    <None Remove="Frames\F %2850%29.gif" />
+    <None Remove="Frames\F %2851%29.gif" />
+    <None Remove="Frames\F %2852%29.gif" />
+    <None Remove="Frames\F %2853%29.gif" />
+    <None Remove="Frames\F %2854%29.gif" />
+    <None Remove="Frames\F %2855%29.gif" />
+    <None Remove="Frames\F %2856%29.gif" />
+    <None Remove="Frames\F %2857%29.gif" />
+    <None Remove="Frames\F %2858%29.gif" />
+    <None Remove="Frames\F %2859%29.gif" />
+    <None Remove="Frames\F %286%29.gif" />
+    <None Remove="Frames\F %2860%29.gif" />
+    <None Remove="Frames\F %2861%29.gif" />
+    <None Remove="Frames\F %287%29.gif" />
+    <None Remove="Frames\F %288%29.gif" />
+    <None Remove="Frames\F %289%29.gif" />
+    <None Remove="giphy.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="cropped.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (1).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (10).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (11).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (12).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (13).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (14).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (15).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (16).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (17).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (18).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (19).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (2).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (20).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (21).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (22).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (23).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (24).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (25).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (26).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (27).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (28).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (29).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (3).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (30).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (31).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (32).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (33).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (34).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (35).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (36).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (37).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (38).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (39).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (4).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (40).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (41).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (42).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (43).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (44).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (45).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (46).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (47).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (48).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (49).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (5).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (50).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (51).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (52).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (53).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (54).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (55).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (56).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (57).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (58).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (59).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (6).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (60).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (61).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (7).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (8).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Frames\F (9).gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
